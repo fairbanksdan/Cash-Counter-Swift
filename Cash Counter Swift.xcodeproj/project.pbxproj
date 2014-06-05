@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6545361194032FE005BF5F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6545360194032FE005BF5F4 /* AppDelegate.swift */; };
+		D6545363194032FE005BF5F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6545362194032FE005BF5F4 /* ViewController.swift */; };
+		D6545366194032FE005BF5F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6545364194032FE005BF5F4 /* Main.storyboard */; };
+		D6545368194032FE005BF5F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6545367194032FE005BF5F4 /* Images.xcassets */; };
+		D6545374194032FE005BF5F4 /* Cash_Counter_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6545373194032FE005BF5F4 /* Cash_Counter_SwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D654536E194032FE005BF5F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6545353194032FE005BF5F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D654535A194032FE005BF5F4;
+			remoteInfo = "Cash Counter Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D654535B194032FE005BF5F4 /* Cash Counter Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cash Counter Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D654535F194032FE005BF5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6545360194032FE005BF5F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6545362194032FE005BF5F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6545365194032FE005BF5F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6545367194032FE005BF5F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D654536D194032FE005BF5F4 /* Cash Counter SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cash Counter SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6545372194032FE005BF5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6545373194032FE005BF5F4 /* Cash_Counter_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cash_Counter_SwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6545358194032FE005BF5F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D654536A194032FE005BF5F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6545352194032FE005BF5F4 = {
+			isa = PBXGroup;
+			children = (
+				D654535D194032FE005BF5F4 /* Cash Counter Swift */,
+				D6545370194032FE005BF5F4 /* Cash Counter SwiftTests */,
+				D654535C194032FE005BF5F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D654535C194032FE005BF5F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D654535B194032FE005BF5F4 /* Cash Counter Swift.app */,
+				D654536D194032FE005BF5F4 /* Cash Counter SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D654535D194032FE005BF5F4 /* Cash Counter Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D6545360194032FE005BF5F4 /* AppDelegate.swift */,
+				D6545362194032FE005BF5F4 /* ViewController.swift */,
+				D6545364194032FE005BF5F4 /* Main.storyboard */,
+				D6545367194032FE005BF5F4 /* Images.xcassets */,
+				D654535E194032FE005BF5F4 /* Supporting Files */,
+			);
+			path = "Cash Counter Swift";
+			sourceTree = "<group>";
+		};
+		D654535E194032FE005BF5F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D654535F194032FE005BF5F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6545370194032FE005BF5F4 /* Cash Counter SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6545373194032FE005BF5F4 /* Cash_Counter_SwiftTests.swift */,
+				D6545371194032FE005BF5F4 /* Supporting Files */,
+			);
+			path = "Cash Counter SwiftTests";
+			sourceTree = "<group>";
+		};
+		D6545371194032FE005BF5F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6545372194032FE005BF5F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D654535A194032FE005BF5F4 /* Cash Counter Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6545377194032FE005BF5F4 /* Build configuration list for PBXNativeTarget "Cash Counter Swift" */;
+			buildPhases = (
+				D6545357194032FE005BF5F4 /* Sources */,
+				D6545358194032FE005BF5F4 /* Frameworks */,
+				D6545359194032FE005BF5F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cash Counter Swift";
+			productName = "Cash Counter Swift";
+			productReference = D654535B194032FE005BF5F4 /* Cash Counter Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D654536C194032FE005BF5F4 /* Cash Counter SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D654537A194032FE005BF5F4 /* Build configuration list for PBXNativeTarget "Cash Counter SwiftTests" */;
+			buildPhases = (
+				D6545369194032FE005BF5F4 /* Sources */,
+				D654536A194032FE005BF5F4 /* Frameworks */,
+				D654536B194032FE005BF5F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D654536F194032FE005BF5F4 /* PBXTargetDependency */,
+			);
+			name = "Cash Counter SwiftTests";
+			productName = "Cash Counter SwiftTests";
+			productReference = D654536D194032FE005BF5F4 /* Cash Counter SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6545353194032FE005BF5F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Fairbanksdan;
+				TargetAttributes = {
+					D654535A194032FE005BF5F4 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					D654536C194032FE005BF5F4 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D654535A194032FE005BF5F4;
+					};
+				};
+			};
+			buildConfigurationList = D6545356194032FE005BF5F4 /* Build configuration list for PBXProject "Cash Counter Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6545352194032FE005BF5F4;
+			productRefGroup = D654535C194032FE005BF5F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D654535A194032FE005BF5F4 /* Cash Counter Swift */,
+				D654536C194032FE005BF5F4 /* Cash Counter SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6545359194032FE005BF5F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6545366194032FE005BF5F4 /* Main.storyboard in Resources */,
+				D6545368194032FE005BF5F4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D654536B194032FE005BF5F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6545357194032FE005BF5F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6545363194032FE005BF5F4 /* ViewController.swift in Sources */,
+				D6545361194032FE005BF5F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6545369194032FE005BF5F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6545374194032FE005BF5F4 /* Cash_Counter_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D654536F194032FE005BF5F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D654535A194032FE005BF5F4 /* Cash Counter Swift */;
+			targetProxy = D654536E194032FE005BF5F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6545364194032FE005BF5F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6545365194032FE005BF5F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6545375194032FE005BF5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6545376194032FE005BF5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6545378194032FE005BF5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Cash Counter Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6545379194032FE005BF5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Cash Counter Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D654537B194032FE005BF5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cash Counter Swift.app/Cash Counter Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cash Counter SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		D654537C194032FE005BF5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cash Counter Swift.app/Cash Counter Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Cash Counter SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6545356194032FE005BF5F4 /* Build configuration list for PBXProject "Cash Counter Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6545375194032FE005BF5F4 /* Debug */,
+				D6545376194032FE005BF5F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6545377194032FE005BF5F4 /* Build configuration list for PBXNativeTarget "Cash Counter Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6545378194032FE005BF5F4 /* Debug */,
+				D6545379194032FE005BF5F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D654537A194032FE005BF5F4 /* Build configuration list for PBXNativeTarget "Cash Counter SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D654537B194032FE005BF5F4 /* Debug */,
+				D654537C194032FE005BF5F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6545353194032FE005BF5F4 /* Project object */;
+}
