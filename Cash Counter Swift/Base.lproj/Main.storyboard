@@ -68,67 +68,82 @@
                                                 <rect key="frame" x="112" y="191" width="97" height="30"/>
                                                 <color key="textColor" red="0.2270752741" green="0.33747209820000001" blue="0.21883771129999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="29"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <connections>
+                                                    <action selector="singledollarCounter:" destination="vXZ-lx-hvc" eventType="editingChanged" id="BcE-Yu-J40"/>
+                                                </connections>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5l9-LP-stp">
                                                 <rect key="frame" x="112" y="154" width="97" height="30"/>
                                                 <color key="textColor" red="0.2270752741" green="0.33747209820000001" blue="0.21883771129999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="29"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <connections>
+                                                    <action selector="fiftyCentCounter:" destination="vXZ-lx-hvc" eventType="editingChanged" id="d9C-2d-SxS"/>
+                                                </connections>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rUA-fg-gTw">
                                                 <rect key="frame" x="112" y="117" width="97" height="30"/>
                                                 <color key="textColor" red="0.2270752741" green="0.33747209820000001" blue="0.21883771129999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="29"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <connections>
+                                                    <action selector="quarterCount:" destination="vXZ-lx-hvc" eventType="editingChanged" id="g9N-bX-aYg"/>
+                                                </connections>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zjt-01-B4E">
                                                 <rect key="frame" x="111" y="81" width="97" height="30"/>
                                                 <color key="textColor" red="0.2270752741" green="0.33747209820000001" blue="0.21883771129999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="29"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <connections>
+                                                    <action selector="dimeCounter:" destination="vXZ-lx-hvc" eventType="editingChanged" id="xzf-dC-vTR"/>
+                                                </connections>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u0Y-If-umH">
                                                 <rect key="frame" x="112" y="43" width="97" height="30"/>
                                                 <color key="textColor" red="0.2270752741" green="0.33747209820000001" blue="0.21883771129999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="29"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <connections>
+                                                    <action selector="nickelCounter:" destination="vXZ-lx-hvc" eventType="editingChanged" id="idh-X8-icc"/>
+                                                </connections>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bJa-NM-3gB">
                                                 <rect key="frame" x="111" y="229" width="97" height="30"/>
                                                 <color key="textColor" red="0.2270752741" green="0.33747209820000001" blue="0.21883771129999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="29"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="txq-dt-hTG">
                                                 <rect key="frame" x="111" y="265" width="97" height="30"/>
                                                 <color key="textColor" red="0.2270752741" green="0.33747209820000001" blue="0.21883771129999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="29"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I50-LN-IM6">
                                                 <rect key="frame" x="111" y="303" width="97" height="30"/>
                                                 <color key="textColor" red="0.2270752741" green="0.33747209820000001" blue="0.21883771129999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="29"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F6u-9y-c8J">
                                                 <rect key="frame" x="111" y="340" width="97" height="30"/>
                                                 <color key="textColor" red="0.2270752741" green="0.33747209820000001" blue="0.21883771129999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="29"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2IV-e4-8bZ">
                                                 <rect key="frame" x="111" y="378" width="97" height="30"/>
                                                 <color key="textColor" red="0.2270752741" green="0.33747209820000001" blue="0.21883771129999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="29"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aKZ-L0-lQl">
                                                 <rect key="frame" x="112" y="416" width="97" height="30"/>
                                                 <color key="textColor" red="0.2270752741" green="0.33747209820000001" blue="0.21883771129999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="29"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10¢" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pj0-5g-eIM">
                                                 <rect key="frame" x="20" y="79" width="81" height="34"/>
@@ -276,10 +291,16 @@
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Txn-tx-JLq" appends="YES" id="Zs3-yS-hEy"/>
+                                        </connections>
                                     </view>
                                 </subviews>
+                                <gestureRecognizers/>
                                 <connections>
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="brw-7v-yM8"/>
+                                    <outletCollection property="gestureRecognizers" destination="Txn-tx-JLq" appends="YES" id="Gr0-TF-9wL"/>
                                 </connections>
                             </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bM0-Fc-wBI">
@@ -306,6 +327,10 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Txn-tx-JLq" appends="YES" id="XXp-Rh-fj6"/>
+                        </connections>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
@@ -328,6 +353,8 @@
                         <outlet property="quarterTextField" destination="rUA-fg-gTw" id="raT-VM-BtO"/>
                         <outlet property="quarterTotalLabel" destination="u9w-zp-9lT" id="KVB-0n-13t"/>
                         <outlet property="resetButton" destination="Rmg-hJ-g3n" id="D15-96-04v"/>
+                        <outlet property="screenTapped" destination="Txn-tx-JLq" id="kQO-4W-nLv"/>
+                        <outlet property="scrollView" destination="uNf-MD-i3v" id="ha6-Sj-FSi"/>
                         <outlet property="singleDollarTextField" destination="FJS-A6-tSJ" id="X0h-Fk-MhV"/>
                         <outlet property="singleDollarTotalLabel" destination="slG-9R-pQr" id="Za6-ho-7dm"/>
                         <outlet property="tenDollarTextField" destination="I50-LN-IM6" id="Xho-7P-wUQ"/>
@@ -339,6 +366,12 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Txn-tx-JLq">
+                    <connections>
+                        <action selector="tapToCloseKeyboard:" destination="vXZ-lx-hvc" id="gSU-SP-YtA"/>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="dmT-lg-MnH"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
         </scene>
     </scenes>

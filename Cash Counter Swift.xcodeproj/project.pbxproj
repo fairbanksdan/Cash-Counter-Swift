@@ -328,6 +328,7 @@
 				INFOPLIST_FILE = "Cash Counter Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -339,6 +340,7 @@
 				INFOPLIST_FILE = "Cash Counter Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -397,6 +399,7 @@
 				D6545379194032FE005BF5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D654537A194032FE005BF5F4 /* Build configuration list for PBXNativeTarget "Cash Counter SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +408,7 @@
 				D654537C194032FE005BF5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
