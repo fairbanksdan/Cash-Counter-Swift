@@ -235,6 +235,48 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     }
     
     @IBAction func ResetButtonPressed(sender : UIButton) {
+        var emptyString = String(format:"")
+        
+        pennyCount = 0.00
+        nickelCount = 0.00
+        dimeCount = 0.00
+        quarterCount = 0.00
+        fiftyCentCount = 0.00
+        singleDollarCount = 0.00
+        twoDollarCount = 0.00
+        fiveDollarCount = 0.00
+        tenDollarCount = 0.00
+        twentyDollarCount = 0.00
+        fiftyDollarCount = 0.00
+        hundredDollarCount = 0.00
+        
+        pennyTotalLabel.text = String(format:"%.2f", pennyCount)
+        nickelTotalLabel.text = String(format:"%.2f", nickelCount)
+        dimeTotalLabel.text = String(format:"%.2f", dimeCount)
+        quarterTotalLabel.text = String(format:"%.2f", quarterCount)
+        fiftyCentTotalLabel.text = String(format:"%.2f", fiftyCentCount)
+        singleDollarTotalLabel.text = String(format:"%.2f", singleDollarCount)
+        twoDollarTotalLabel.text = String(format:"%.2f", twoDollarCount)
+        fiveDollarTotalLabel.text = String(format:"%.2f", fiveDollarCount)
+        tenDollarTotalLabel.text = String(format:"%.2f", tenDollarCount)
+        twentyDollarTotalLabel.text = String(format:"%.2f", twentyDollarCount)
+        fiftyDollarTotalLabel.text = String(format:"%.2f", fiftyDollarCount)
+        hundredDollarTotalLabel.text = String(format:"%.2f", hundredDollarCount)
+        
+        grandTotalLabel.text = String(format:"%.2f", pennyCount + nickelCount + dimeCount + quarterCount + fiftyCentCount + singleDollarCount + twoDollarCount + fiveDollarCount + tenDollarCount + twentyDollarCount + fiftyDollarCount + hundredDollarCount)
+        
+        pennyTextField.text = emptyString
+        nickelTextField.text = emptyString
+        dimeTextField.text = emptyString
+        quarterTextField.text = emptyString
+        fiftyCentTextField.text = emptyString
+        singleDollarTextField.text = emptyString
+        twoDollarTextField.text = emptyString
+        fiveDollarTextField.text = emptyString
+        tenDollarTextField.text = emptyString
+        twentyDollarTextField.text = emptyString
+        fiftyDollarTextField.text = emptyString
+        hundredDollarTextField.text = emptyString
     }
     
     
