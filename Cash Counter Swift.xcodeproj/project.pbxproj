@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D64099A91949F84B00475E70 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64099A81949F84B00475E70 /* AVFoundation.framework */; };
 		D6545361194032FE005BF5F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6545360194032FE005BF5F4 /* AppDelegate.swift */; };
 		D6545363194032FE005BF5F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6545362194032FE005BF5F4 /* ViewController.swift */; };
 		D6545366194032FE005BF5F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6545364194032FE005BF5F4 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D64099A81949F84B00475E70 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D654535B194032FE005BF5F4 /* Cash Counter Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cash Counter Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D654535F194032FE005BF5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6545360194032FE005BF5F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64099A91949F84B00475E70 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +60,7 @@
 		D6545352194032FE005BF5F4 = {
 			isa = PBXGroup;
 			children = (
+				D64099A81949F84B00475E70 /* AVFoundation.framework */,
 				D654535D194032FE005BF5F4 /* Cash Counter Swift */,
 				D6545370194032FE005BF5F4 /* Cash Counter SwiftTests */,
 				D654535C194032FE005BF5F4 /* Products */,

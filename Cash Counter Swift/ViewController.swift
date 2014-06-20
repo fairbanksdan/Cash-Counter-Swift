@@ -162,8 +162,63 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         UpdateLabels()
     }
     
+    @IBAction func twoDollarCounter(sender: UITextField) {
+        if let str = twoDollarTextField.text?.toInt(){
+            twoDollarCount = Double(str) * 2.00
+        } else {
+            twoDollarCount = 0.00
+        }
+        UpdateLabels()
+    }
+    
+    @IBAction func fiveDollarCounter(sender: UITextField) {
+        if let str = fiveDollarTextField.text?.toInt(){
+            fiveDollarCount = Double(str) * 5.00
+        } else {
+            fiveDollarCount = 0.00
+        }
+        UpdateLabels()
+    }
+    
+    @IBAction func tenDollarCounter(sender: UITextField) {
+        if let str = tenDollarTextField.text?.toInt(){
+            tenDollarCount = Double(str) * 10.00
+        } else {
+            tenDollarCount = 0.00
+        }
+        UpdateLabels()
+    }
+
+    @IBAction func twentyDollarCounter(sender: UITextField) {
+        if let str = twentyDollarTextField.text?.toInt(){
+            twentyDollarCount = Double(str) * 20.00
+        } else {
+            twentyDollarCount = 0.00
+        }
+        UpdateLabels()
+    }
+    
+    @IBAction func fiftyDollarCounter(sender: UITextField) {
+        if let str = fiftyDollarTextField.text?.toInt(){
+            fiftyDollarCount = Double(str) * 50.00
+        } else {
+            fiftyDollarCount = 0.00
+        }
+        UpdateLabels()
+    }
+    
+    @IBAction func hundredDollarCounter(sender: UITextField) {
+        if let str = hundredDollarTextField.text?.toInt(){
+            hundredDollarCount = Double(str) * 100.00
+        } else {
+            hundredDollarCount = 0.00
+        }
+        UpdateLabels()
+    }
+    
+    
     func UpdateLabels() {
-        grandTotalLabel.text = String(format:"%.2f", pennyCount + nickelCount + dimeCount + quarterCount + fiftyCentCount + singleDollarCount)
+        grandTotalLabel.text = String(format:"%.2f", pennyCount + nickelCount + dimeCount + quarterCount + fiftyCentCount + singleDollarCount + twoDollarCount + fiveDollarCount + tenDollarCount + twentyDollarCount + fiftyDollarCount + hundredDollarCount)
         
         pennyTotalLabel.text = String(format:"%.2f", pennyCount)
         nickelTotalLabel.text = String(format:"%.2f", nickelCount)
@@ -171,9 +226,13 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         quarterTotalLabel.text = String(format:"%.2f", quarterCount)
         fiftyCentTotalLabel.text = String(format:"%.2f", fiftyCentCount)
         singleDollarTotalLabel.text = String(format:"%.2f", singleDollarCount)
-        
+        twoDollarTotalLabel.text = String(format:"%.2f", twoDollarCount)
+        fiveDollarTotalLabel.text = String(format:"%.2f", fiveDollarCount)
+        tenDollarTotalLabel.text = String(format:"%.2f", tenDollarCount)
+        twentyDollarTotalLabel.text = String(format:"%.2f", twentyDollarCount)
+        fiftyDollarTotalLabel.text = String(format:"%.2f", fiftyDollarCount)
+        hundredDollarTotalLabel.text = String(format:"%.2f", hundredDollarCount)        
     }
-    
     
     @IBAction func ResetButtonPressed(sender : UIButton) {
     }
